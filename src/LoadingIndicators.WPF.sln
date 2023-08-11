@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.30110.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingIndicators.WPF", "LoadingIndicators.WPF\LoadingIndicators.WPF.csproj", "{E49229CC-D702-478F-90E0-6E1A284272F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadingIndicators.WPF", "LoadingIndicators.WPF\LoadingIndicators.WPF.csproj", "{E49229CC-D702-478F-90E0-6E1A284272F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingIndicators.WPF.Demo", "LoadingIndicators.WPF.Samples\LoadingIndicators.WPF.Demo\LoadingIndicators.WPF.Demo.csproj", "{19A62938-372C-40A9-9622-A9141F4F0F45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadingIndicators.WPF.Demo", "LoadingIndicators.WPF.Samples\LoadingIndicators.WPF.Demo\LoadingIndicators.WPF.Demo.csproj", "{19A62938-372C-40A9-9622-A9141F4F0F45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6438CAB7-995D-4CCF-9D44-9981CB25B93E}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5761F58F-4D93-46BA-AB20-795A881AF192}
 	EndGlobalSection
 EndGlobal
